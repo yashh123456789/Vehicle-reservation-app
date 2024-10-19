@@ -1,0 +1,67 @@
+
+.navbar {
+    background:black;
+    padding: 20px;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    color: #f3e5f5;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    transform: translateY(-3px);
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn,
+  .logout-btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #b775d364; 
+  }
+  
+  .login-btn:hover {
+    background-color: #520a7f; 
+    transform: translateY(-3px);
+  }
+  
+  .logout-btn {
+    background-color: #ff7043; 
+  }
+  
+  .logout-btn:hover {
+    background-color: #f4511e; 
+    transform: translateY(-3px);
+  }
+  
